@@ -1,0 +1,78 @@
+#sidebarSubscribe {
+    padding: 10px;
+	width:80%;
+}
+a.subscribeSidebarBox {
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 225px;
+}
+#sidebarSubscribe span {
+    color: #6E6E6E;
+    display: block;
+    padding: 3px;
+    position: absolute;
+    text-shadow: 1px 1px 0 white;
+}
+#sidebarSubscribe .social{
+	border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 250px;
+    margin-bottom: 8px;
+    width: 225px;
+}
+#sidebarSubscribe .icon {
+    height: 45px;
+    width: 150px;	
+	margin-top:40px;
+}
+
+#sidebarSubscribe .title {
+	margin:auto;
+    top: 8px;
+	font: bold 18px/28px 'Myriad Pro',Tahoma,Arialm,sans-serif;
+}
+
+#sidebarSubscribe .count {
+    font: bold 18px/28px 'Myriad Pro',Tahoma,Arialm,sans-serif;
+	margin-left:40px;
+}
+#subscribeRSS .icon {
+    background: url("../img/rss.png") no-repeat scroll 0 0 transparent;
+	margin-top:20px;
+	
+}
+#followTwitter .icon {
+    background: url("../img/twitter.png") no-repeat scroll 0 0 transparent;
+	margin-top:70px;
+}
+#followFacebook .icon {
+    background: url("../img/facebook.png") no-repeat scroll 0 0 transparent;
+	margin-top:120px;
+}
+
+#followGoogle .icon{
+    background: url("../img/google.png") no-repeat scroll 0 0 transparent;
+	margin-top:170px;
+}
+
+.text-subscriber {
+	margin-top:2px;
+	margin-left:45px;
+}
+
+.text-subscriber:hover  {
+	text-decoration:none;
+}
+a.subscribeSidebarBox {
+    background-color: #FAFAFA;
+    border-radius: 10px 10px 10px 10px;
+}
+a.subscribeSidebarBox:hover {
+    background-color: #FDFDFD;
+}
